@@ -1,0 +1,344 @@
+<!DOCTYPE HTML>
+<html>
+
+   <head>
+      <meta charset=" UTF-8">
+      <title> Account Profile Card</title>
+      <link href="style.css" type="text/css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+   </head>
+       <style>
+         @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+           *{margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            font-family: 'Josefin Sans', sans-serif;
+       }
+
+         body{
+            background: #f8a193;
+            background-image: url('act.jpg');
+          }
+
+         #main{
+           width: 1100px;
+           height: 650px;
+           background: #cf3476;
+margin: 25px auto;
+border: solid 2px #fcfded;
+}
+
+.wrapper{
+position: absolute;
+top: 50%;
+left: 50%;
+right: 50;
+bottom: 50;
+transform: translate(-50%,-50%);
+width: 900px;
+height: 600px;
+display: flex;
+box shadow: 3 3px 30px 0 rgba((70,90,100,0.08))
+}
+
+
+.wrapper .left{
+width: 45%;
+background: linear-gradient(to right, #01a9ac,#01dbdf);
+padding: 30px 25px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+text-align: center;
+color: #1f0a29;
+}
+
+.wrapper .left img{
+margin-bottom: 10px;
+border-radius: 5px;
+}
+.wrapper .left h1{
+margin-bottom: 10px;
+}
+
+.wrapper .left p{
+font-size: 15px;
+}
+
+.wrapper .right{
+width: 200%;
+background: #fcfded;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+padding: 30px 40px;
+}
+
+.wrapper .right .info,
+.wrapper .right .activities{
+margin-bottom: 25px;
+}
+
+.wrapper .right .info h2,
+.wrapper .right .activities h2{
+margin-bottom: 15px;
+padding-bottom: 5px;
+border-bottom: 1px solid #1f0a29;
+color: #ecebdf;
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+.wrapper .right .info_data,
+.wrapper .right .activities_data{
+display: flex;
+justify-content: space-between;
+}
+
+.wrapper .right .info_data .data,
+.wrapper .right .activities_data .data{
+width: 45%;
+}
+
+.wrapper .right .data h3,
+.wrapper .right .activities_data h3{
+color: #1f0a29;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.wrapper .left p{
+font-size: 15px;
+}
+.wrapper .right .info_data p,
+.wrapper .right .activities_data p{
+text-align: center;
+font-size: 15px;
+margin-bottom: 10px;
+color: #1f0a29;
+}
+.wrapper .right .data h4,
+.wrapper .right .activities_data h4{
+color: #1f0a29;
+margin-bottom: 10px;
+text-align: center;
+}
+
+
+.wrapper .left p{
+font-size: 15px;
+}
+.wrapper .right .info_data p,
+.wrapper .right .activities_data p{
+text-align: center;
+font-size: 15px;
+margin-bottom: 10px;
+color: #1f0a29;
+}
+
+.wrapper .right .info_data h3,
+.wrapper .right .activities_data h3{
+text align: center;
+font-size: 15px;
+margin-bottom: 10px;
+color: #1f0a29;
+display: flex;
+justify-content: space-between;
+table, hd, td{
+border-collapse: collapse;
+}
+
+th{
+text-align: left;
+}
+
+tr: nth-child(odd){
+background-color: #8c198c;
+}
+
+th, td{
+padding: 5px;
+}
+}
+
+.wrapper .right .info_data h4,
+.wrapper .right .activities_data h4{
+form{
+width: 100px;
+}
+
+input{
+width: 200%;
+}
+
+select{
+width: 400px;
+}
+}
+
+.wrapper .right .info_data h5,
+.wrapper .right .activities_data h5{
+form{
+width: 100px;
+}
+
+input{
+width: 200%;
+}
+
+select{
+width: 400px;
+}
+}
+
+.wrapper .social_media ul li{
+width: 45px;
+height:45px;
+background: linear-gradient(to right, #01a9ac,#01dbdf);
+margin-right: 10px;
+border-radius: 5px;
+linear-height: 45px;
+text-align: center;
+}
+
+.wrapper .social_media ul li a{
+color: #ecebdf;
+display: block;
+           font-size: 18px;
+}
+  a:hover {
+            background-color: #ddd;
+            color: black;
+            }
+
+            .previous {
+             background-color: #f1f1f1;
+             color: black;
+            }
+
+            .next {
+              background-color: #4CAF50;
+             color: white;
+            }
+
+            .round {
+              border-radius: 50%;
+          }
+
+       </style>
+      
+   <body>
+
+         <div id= "main";>
+         <div class="wrapper">
+         <div class="left">
+      <h1>CoolKids DayCare Centre</h1>
+         <image src="kids.jpg"/>
+      <p> Is a centre that provides supervision, education and care for young children during daytime, particulary so that their parents can hold jobs.</p>
+     </div>
+
+         <div class="right">
+         <div class="info">
+      <h2>Information</h2>
+
+<div class="data">
+<h3>Vision</h3>
+<p>Coolkids DayCare aims high provides a safe and secure environment for young children. The centre enables them to develop mentally, physically, spiritually, and grow at their own pace.</p>
+</div>
+
+<div class="data">
+<h4>Mission</h4>
+<p>Coolkid DayCare is striving provide an inclusive child care program to expose them to a committed diverse learning community. To prepare young children for future academic success. To help boost young children's confidence, by ensuring they are well guided.</p>
+</div>
+
+</div>
+</div>
+
+<div class="right">
+<div class="info">
+<h2>Activities</h2>
+
+<div class="activities_data">
+<h3>Recent</h3>
+<table style = "border: solid black 1px;" style= "width: 400px;" />
+<caption> Timetable </caption>
+
+
+<tr>
+<th style = "border: solid black 1px; "> Time </th>
+<th style = "border: solid black 1px; "> Recent </th>
+</tr>
+
+<tr>
+<td style = "border: solid black 1px; "> 06h00-08h00 </td>
+<td style = "border: solid black 1px; "> Teaching </td>
+</tr>
+
+<tr>
+<td style = "border: solid black 1px; "> 09h00-11h00 </td>
+<td style = "border: solid black 1px; "> Learning </td
+</tr>
+
+<tr>
+<td style = "border: solid black 1px; "> 12h00-14h00 </td>
+<td style = "border: solid black 1px; "> Playing </td>
+</tr>
+
+<tr>
+<td style = "border: solid black 1px; "> 15h00-17h00 </td>
+<td style = "border: solid black 1px; "> Sleeping </td>
+</tr>
+
+<tr>
+<td style = "border: solid black 1px; "> 18h00-20h00 </td>
+<td style = "border: solid black 1px; "> Picking up time </td>
+</tr>
+
+
+</table>
+
+</div>
+
+<div class="data">
+<h4>Outdoor games:</h4>
+Sorry Water: <input type = "radio" name = "outdoor games" name= "Sorry Water" />
+Gardening: <input type = "radio" name = "outdoor games" name= "Gardening" />
+Hula hoop: <input type = "radio" name = "outdoor games" name= "Hula hoop" />
+Simon Say: <input type = "radio" name = "outdoor games" name= "Simon Say" />
+Hide & Seek: <input type = "radio" name = "outdoor games" name= "Hide & Seek" />
+</div>
+
+<div class="data">
+<h5>Indoor games:</h5>
+<select name= "Games"
+<option name = "Games"> Games </option>
+<option name = "Games"> Games </option>
+<option name = "The sleeping song"> The sleeping song </option>
+<option name = "Yoga for kids"> Yoga for kids </option>
+<option name = "Copy dance"> Copy dance </option>
+<option name = "Story go-round"> Story go-round </option>
+<option name = "Freeze dance"> Freeze dance </option>
+</div>
+
+</div>
+</div>
+<div class="social_media">
+<ul>
+<li><a href="#"><i class="fab fa-instagram"></i></a><li>
+<li><a href="#"><i class="fab fa-facebook"></i></a><li>
+<li><a href="#"><i class="fab fa-twitter"></i></a><li>
+<li><a href="#"><i class="fab fa-yahoo"></i></a><li>
+</ul>
+
+</div>
+</div>
+
+</div>
+<div>
+              <a href="#" class="previous">&laquo; Previous</a>
+              <a href="#" class="next">Next &raquo;</a>
+
+              <a href="#" class="previous round">&#8249;</a>
+              <a href="#" class="next round">&#8250;</a>
+
+</body>
+
+</html>
